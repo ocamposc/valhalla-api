@@ -1,0 +1,18 @@
+{
+  "name": "valhalla-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "orlando campos",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jest": "^27.3.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "2"
+  }
+}
