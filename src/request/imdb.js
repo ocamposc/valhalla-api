@@ -19,7 +19,10 @@ const getMoviesAndSeries = async(keyword) => {
     }
     return response;
   } catch (e) {
-    return null;
+    return {
+      error: e,
+      results: null
+    };
   }
 }
 
@@ -39,7 +42,10 @@ const getDirectors = async(id) => {
     }
     return response;
   } catch (e) {
-    return null;
+    return {
+      error: e,
+      results: null
+    };
   }
 }
 
@@ -58,7 +64,10 @@ const getActors = async(id) => {
     }
     return response;
   } catch (e) {
-    return null;
+    return {
+      error: e,
+      results: null
+    };
   }
 }
 
