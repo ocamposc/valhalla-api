@@ -10,7 +10,7 @@ yarn install
 
 ### Requirements
 
-Before to the project you need to add a .env file in the root with your IMDB APIKEY as "IMDB_KEY"
+Before to run the project you need to add a .env file in the root with your IMDB APIKEY as "IMDB_KEY"
 
 ### Run
 
